@@ -1,0 +1,52 @@
+[
+  {
+    "id": "helios",
+    "aliases": [
+      "accordance.com",
+      "helio"
+    ],
+    "description": "A rich web client portal.",
+    "documentation": "http://en.wikipedia.org/wiki/Helios",
+    "name": "Helios client",
+    "owner": "titans",
+    "source_repo": "https://github.com/Accordance/helios.git",
+    "uses": [
+      "hyperion"
+    ],
+    "stack": "javascript"
+  },
+  {
+    "id": "hyperion",
+    "aliases": [
+      "hyperion.accordance.com",
+      "backend"
+    ],
+    "description": "Supporting REST services for the Web client.",
+    "documentation": "http://en.wikipedia.org/wiki/Hyperion_%28mythology%29",
+    "health_url": "http://hyperion.accordance.com:8080/healthcheck",
+    "name": "Backend service",
+    "owner": "titans",
+    "source_repo": "https://github.com/Accordance/helios.git",
+    "uses": [
+      "atlas"
+    ],
+    "stack": "ruby"
+  },
+  {
+    "id": "atlas",
+    "aliases": [
+      "atlas.accordance.com",
+      "graph"
+    ],
+    "description": "Dependencies Graph management.",
+    "documentation": "http://en.wikipedia.org/wiki/Atlas_%28mythology%29",
+    "health_url": "http://atlas.accordance.com:8080/healthcheck",
+    "name": "Graph service",
+    "owner": "titans",
+    "source_repo": "https://github.com/Accordance/atlas.git",
+    "uses1": [
+      "orientdb"
+    ],
+    "stack": "java"
+  }
+]

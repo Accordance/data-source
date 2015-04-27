@@ -1,0 +1,1281 @@
+[
+  {
+    "id": "slapstick",
+    "name": "Slapstick",
+    "owner": "ws"
+  },
+  {
+    "id": "grim_reaper",
+    "name": "Grim Reaper"
+  },
+  {
+    "id": "rat_king",
+    "name": "Rat King"
+  },
+  {
+    "id": "northstar",
+    "name": "Northstar",
+    "owner": "cbs"
+  },
+  {
+    "id": "hydra",
+    "name": "HYDRA",
+    "type": "ui"
+  },
+  {
+    "id": "haven",
+    "name": "Haven",
+    "owner": "platformsvc"
+  },
+  {
+    "id": "muskrat",
+    "name": "Muskrat",
+    "owner": "platformsvc"
+  },
+  {
+    "id": "angel",
+    "name": "Angel"
+  },
+  {
+    "id": "bebop",
+    "name": "Bebop"
+  },
+  {
+    "id": "guile",
+    "name": "Guile",
+    "owner": "cd"
+  },
+  {
+    "id": "mondo_gecko",
+    "name": "Mondo Gecko",
+    "owner": "cd"
+  },
+  {
+    "id": "vertigo",
+    "name": "Vertigo",
+    "owner": "cd"
+  },
+  {
+    "id": "prowler",
+    "name": "Prowler",
+    "owner": "cbs"
+  },
+  {
+    "id": "mojo",
+    "name": "Mojo",
+    "owner": "cbs"
+  },
+  {
+    "id": "hawk",
+    "name": "Hawk"
+  },
+  {
+    "id": "avalon",
+    "name": "Avalon",
+    "type": "ui"
+  },
+  {
+    "id": "gideon",
+    "name": "Gideon",
+    "owner": "cbs"
+  },
+  {
+    "id": "archangel",
+    "name": "Archangel"
+  },
+  {
+    "id": "tombstone",
+    "name": "Tombstone",
+    "owner": "contacts"
+  },
+  {
+    "id": "siryn",
+    "name": "Siryn",
+    "owner": "platformsvc"
+  },
+  {
+    "id": "leonardo",
+    "name": "Leonardo"
+  },
+  {
+    "id": "silver_surfer",
+    "name": "Silver Surfer"
+  },
+  {
+    "id": "doctor_doom",
+    "name": "Doctor Doom",
+    "owner": "inno"
+  },
+  {
+    "id": "arcade",
+    "name": "Arcade",
+    "owner": "sl"
+  },
+  {
+    "id": "cloak_and_dagger",
+    "name": "Cloak and Dagger",
+    "owner": "cbs"
+  },
+  {
+    "id": "spider_man",
+    "name": "Spider-Man",
+    "type": "ui"
+  },
+  {
+    "id": "tyrant",
+    "name": "Tyrant"
+  },
+  {
+    "id": "tempo",
+    "name": "Tempo"
+  },
+  {
+    "id": "wrecker",
+    "name": "Wrecker",
+    "owner": "campaigns"
+  },
+  {
+    "id": "callisto",
+    "name": "Callisto",
+    "owner": "campaigns"
+  },
+  {
+    "id": "robin",
+    "name": "Robin",
+    "owner": "campaigns"
+  },
+  {
+    "id": "blood_wraith",
+    "name": "Blood Wraith"
+  },
+  {
+    "id": "shiva",
+    "name": "Shiva"
+  },
+  {
+    "id": "thing",
+    "name": "Thing",
+    "type": "ui"
+  },
+  {
+    "id": "baroness",
+    "name": "Baroness",
+    "type": "ui"
+  },
+  {
+    "id": "sleepwalker",
+    "name": "Sleepwalker",
+    "owner": "cbs"
+  },
+  {
+    "id": "doomsday",
+    "name": "Doomsday"
+  },
+  {
+    "id": "reavers",
+    "name": "Reavers"
+  },
+  {
+    "id": "jinx",
+    "name": "Jinx",
+    "owner": "cbs"
+  },
+  {
+    "id": "doppelganger",
+    "name": "Doppelganger",
+    "owner": "cbs"
+  },
+  {
+    "id": "annihilus",
+    "name": "Annihilus",
+    "owner": "inno"
+  },
+  {
+    "id": "juggernaut",
+    "name": "Juggernaut",
+    "owner": "inno"
+  },
+  {
+    "id": "four_horsemen_of_apocalypse",
+    "name": "Four Horsemen of Apocalypse",
+    "owner": "emm"
+  },
+  {
+    "id": "weapon_omega",
+    "name": "Weapon Omega",
+    "owner": "labs"
+  },
+  {
+    "id": "catwoman",
+    "name": "Catwoman",
+    "type": "infrastructure"
+  },
+  {
+    "id": "synch",
+    "name": "Synch",
+    "type": "ui"
+  },
+  {
+    "id": "banshee",
+    "name": "Banshee"
+  },
+  {
+    "id": "goliath",
+    "name": "Goliath"
+  },
+  {
+    "id": "holocaust",
+    "name": "Holocaust",
+    "type": "pubsvc"
+  },
+  {
+    "id": "masque",
+    "name": "Masque",
+    "owner": "platformsvc",
+    "type": "hybrid"
+  },
+  {
+    "id": "magik",
+    "name": "Magik"
+  },
+  {
+    "id": "stryfe",
+    "name": "Stryfe",
+    "owner": "platformsvc"
+  },
+  {
+    "id": "lobo",
+    "name": "Lobo"
+  },
+  {
+    "id": "wasp",
+    "name": "Wasp",
+    "owner": "sc"
+  },
+  {
+    "id": "thor",
+    "name": "Thor"
+  },
+  {
+    "id": "hulk",
+    "name": "Hulk"
+  },
+  {
+    "id": "hellions",
+    "name": "Hellions"
+  },
+  {
+    "id": "eradicator",
+    "name": "Eradicator"
+  },
+  {
+    "id": "leatherneck",
+    "name": "Leatherneck",
+    "owner": "emm"
+  },
+  {
+    "id": "xian",
+    "name": "Xi’an",
+    "owner": "emm"
+  },
+  {
+    "id": "gi_joe",
+    "name": "G.I. Joe",
+    "type": "ui",
+    "owner": "sc"
+  },
+  {
+    "id": "panda_khan",
+    "name": "Panda Khan",
+    "type": "pubsvc"
+  },
+  {
+    "id": "mandarin",
+    "name": "Mandarin",
+    "owner": "emm"
+  },
+  {
+    "id": "thunderbolts",
+    "name": "Thunderbolts",
+    "owner": "emm"
+  },
+  {
+    "id": "silver_samurai",
+    "name": "Silver Samurai",
+    "owner": "emm"
+  },
+  {
+    "id": "stormtrooper",
+    "name": "Stormtrooper",
+    "type": "pubsvc"
+  },
+  {
+    "id": "proteus",
+    "name": "Proteus",
+    "owner": "platformsvc"
+  },
+  {
+    "id": "solo",
+    "name": "Solo",
+    "owner": "cbs"
+  },
+  {
+    "id": "huntress",
+    "name": "Huntress",
+    "owner": "platformsvc",
+    "uses": [
+      "banshee"
+    ]
+  },
+  {
+    "id": "blink",
+    "name": "Blink",
+    "owner": "platformsvc",
+    "uses": [
+      "silver_samurai"
+    ]
+  },
+  {
+    "id": "quicksilver",
+    "name": "Quicksilver",
+    "uses": [
+      "bebop",
+      "silver_samurai"
+    ]
+  },
+  {
+    "id": "aquaman",
+    "name": "Aquaman",
+    "uses": [
+      "bebop"
+    ]
+  },
+  {
+    "id": "maverick",
+    "name": "Maverick",
+    "uses": [
+      "bebop"
+    ]
+  },
+  {
+    "id": "black_knight",
+    "name": "Black Knight",
+    "owner": "cbs",
+    "uses": [
+      "bebop",
+      "tombstone",
+      "banshee"
+    ]
+  },
+  {
+    "id": "medusa",
+    "name": "Medusa",
+    "uses": [
+      "silver_samurai"
+    ]
+  },
+  {
+    "id": "saracen",
+    "name": "Saracen",
+    "owner": "ws",
+    "type": "hybrid",
+    "uses": [
+      "spider_man"
+    ]
+  },
+  {
+    "id": "scarlet_witch",
+    "name": "Scarlet Witch",
+    "owner": "platformsvc",
+    "uses": [
+      "baroness",
+      "masque",
+      "panda_khan"
+    ]
+  },
+  {
+    "id": "roadblock",
+    "name": "Roadblock",
+    "uses": [
+      "banshee"
+    ]
+  },
+  {
+    "id": "havok",
+    "name": "Havok",
+    "owner": "evm",
+    "uses": [
+      "banshee"
+    ]
+  },
+  {
+    "id": "storm",
+    "name": "Storm",
+    "owner": "labs",
+    "uses": [
+      "weapon_omega"
+    ]
+  },
+  {
+    "id": "snake_eyes",
+    "name": "Snake-Eyes",
+    "owner": "cbs",
+    "uses": [
+      "cloak_and_dagger",
+      "doppelganger",
+      "banshee"
+    ]
+  },
+  {
+    "id": "carnage",
+    "name": "Carnage",
+    "owner": "platformsvc",
+    "uses": [
+      "doomsday",
+      "banshee",
+      "silver_samurai"
+    ]
+  },
+  {
+    "id": "union_jack",
+    "name": "Union Jack",
+    "owner": "cbs",
+    "uses": [
+      "silver_samurai"
+    ]
+  },
+  {
+    "id": "elektra",
+    "name": "Elektra",
+    "uses": [
+      "silver_samurai"
+    ]
+  },
+  {
+    "id": "morg",
+    "name": "Morg",
+    "owner": "platformsvc",
+    "type": "ui",
+    "uses": [
+      "silver_samurai"
+    ]
+  },
+  {
+    "id": "penguin",
+    "name": "Penguin",
+    "owner": "authoring",
+    "uses": [
+      "hulk",
+      "panda_khan",
+      "silver_samurai",
+      "huntress",
+      "snake_eyes"
+    ]
+  },
+  {
+    "id": "green_goblin",
+    "name": "Green Goblin",
+    "owner": "cbs",
+    "uses": [
+      "doppelganger",
+      "banshee",
+      "masque",
+      "silver_samurai",
+      "carnage"
+    ]
+  },
+  {
+    "id": "michaelangelo",
+    "name": "Michaelangelo",
+    "owner": "platformsvc",
+    "uses": [
+      "scarlet_witch"
+    ]
+  },
+  {
+    "id": "daredevil",
+    "name": "Daredevil",
+    "owner": "cbs",
+    "uses": [
+      "doppelganger",
+      "banshee",
+      "silver_samurai",
+      "carnage"
+    ]
+  },
+  {
+    "id": "spawn",
+    "name": "Spawn",
+    "uses": [
+      "silver_samurai",
+      "huntress"
+    ]
+  },
+  {
+    "id": "azrael",
+    "name": "Azrael",
+    "owner": "contacts",
+    "uses": [
+      "snake_eyes"
+    ]
+  },
+  {
+    "id": "cardiac",
+    "name": "Cardiac",
+    "uses": [
+      "shiva",
+      "silver_samurai",
+      "saracen"
+    ]
+  },
+  {
+    "id": "kingpin",
+    "name": "Kingpin",
+    "owner": "evs",
+    "uses": [
+      "snake_eyes"
+    ]
+  },
+  {
+    "id": "iceman",
+    "name": "Iceman",
+    "type": "ui",
+    "uses": [
+      "siryn",
+      "banshee",
+      "silver_samurai",
+      "huntress",
+      "snake_eyes"
+    ]
+  },
+  {
+    "id": "napoleon_bonafrog",
+    "name": "Napoleon Bonafrog",
+    "uses": [
+      "banshee",
+      "silver_samurai",
+      "snake_eyes"
+    ]
+  },
+  {
+    "id": "mastermind",
+    "name": "Mastermind",
+    "owner": "cbs",
+    "uses": [
+      "northstar",
+      "goliath",
+      "silver_samurai",
+      "huntress"
+    ]
+  },
+  {
+    "id": "mysterio",
+    "owner": "ws",
+    "name": "Mysterio",
+    "type": "ui",
+    "uses": [
+      "silver_samurai",
+      "snake_eyes"
+    ]
+  },
+  {
+    "id": "nightcrawler",
+    "name": "Nightcrawler",
+    "uses": [
+      "morg"
+    ]
+  },
+  {
+    "id": "phoenix",
+    "name": "Phoenix",
+    "uses": [
+      "northstar",
+      "prowler",
+      "goliath",
+      "silver_samurai",
+      "huntress",
+      "azrael"
+    ]
+  },
+  {
+    "id": "ultron",
+    "name": "Ultron",
+    "type": "pubsvc",
+    "uses": [
+      "tombstone",
+      "doppelganger",
+      "banshee",
+      "silver_samurai",
+      "carnage",
+      "azrael"
+    ]
+  },
+  {
+    "id": "namor",
+    "name": "Namor",
+    "owner": "authoring",
+    "uses": [
+      "penguin"
+    ]
+  },
+  {
+    "id": "cesspool",
+    "name": "Cesspool",
+    "uses": [
+      "northstar",
+      "bebop",
+      "silver_samurai",
+      "nightcrawler"
+    ]
+  },
+  {
+    "id": "apocalypse",
+    "name": "Apocalypse",
+    "owner": "platformsvc",
+    "type": "ui",
+    "uses": [
+      "bebop",
+      "banshee",
+      "masque",
+      "kingpin"
+    ]
+  },
+  {
+    "id": "cyborg",
+    "name": "Cyborg",
+    "owner": "evm",
+    "uses": [
+      "bebop",
+      "azrael"
+    ]
+  },
+  {
+    "id": "bionic_commando",
+    "name": "Bionic Commando",
+    "owner": "emm",
+    "uses": [
+      "haven",
+      "panda_khan",
+      "silver_samurai",
+      "black_knight",
+      "snake_eyes",
+      "napoleon_bonafrog"
+    ]
+  },
+  {
+    "id": "x_cutioner",
+    "name": "X-Cutioner",
+    "owner": "cbs",
+    "uses": [
+      "tombstone",
+      "cloak_and_dagger",
+      "doppelganger",
+      "banshee",
+      "panda_khan",
+      "silver_samurai",
+      "huntress",
+      "azrael"
+    ]
+  },
+  {
+    "id": "poison_ivy",
+    "name": "Poison Ivy",
+    "uses": [
+      "masque",
+      "eradicator",
+      "silver_samurai",
+      "nightcrawler"
+    ]
+  },
+  {
+    "id": "scorpion",
+    "name": "Scorpion",
+    "owner": "contacts",
+    "uses": [
+      "baroness",
+      "panda_khan",
+      "silver_samurai",
+      "huntress",
+      "azrael"
+    ]
+  },
+  {
+    "id": "lamprey",
+    "name": "Lamprey",
+    "owner": "contacts",
+    "uses": [
+      "tombstone",
+      "huntress",
+      "azrael"
+    ]
+  },
+  {
+    "id": "black_panther",
+    "name": "Black Panther",
+    "uses": [
+      "banshee",
+      "azrael"
+    ]
+  },
+  {
+    "id": "doctor_octopus",
+    "name": "Doctor Octopus",
+    "uses": [
+      "iceman"
+    ]
+  },
+  {
+    "id": "sandman",
+    "name": "Sandman",
+    "owner": "sc",
+    "uses": [
+      "snake_eyes",
+      "nightcrawler"
+    ]
+  },
+  {
+    "id": "vengeance",
+    "name": "Vengeance",
+    "owner": "sc",
+    "uses": [
+      "bebop",
+      "gi_joe",
+      "snake_eyes",
+      "azrael",
+      "nightcrawler"
+    ]
+  },
+  {
+    "id": "colossus",
+    "name": "Colossus",
+    "owner": "platformsvc",
+    "uses": [
+      "bebop",
+      "azrael"
+    ]
+  },
+  {
+    "id": "marrow",
+    "name": "Marrow",
+    "uses": [
+      "banshee",
+      "masque",
+      "kingpin"
+    ]
+  },
+  {
+    "id": "raphael",
+    "name": "Raphael",
+    "owner": "authoring",
+    "uses": [
+      "namor"
+    ]
+  },
+  {
+    "id": "vulture",
+    "name": "Vulture",
+    "owner": "ws",
+    "uses": [
+      "hydra",
+      "avalon",
+      "thing",
+      "masque",
+      "iceman",
+      "apocalypse"
+    ]
+  },
+  {
+    "id": "widget",
+    "name": "Widget",
+    "owner": "emm",
+    "uses": [
+      "bebop",
+      "tombstone",
+      "huntress",
+      "black_knight",
+      "snake_eyes",
+      "namor"
+    ]
+  },
+  {
+    "id": "doctor_strange",
+    "name": "Doctor Strange",
+    "uses": [
+      "bebop",
+      "tombstone",
+      "colossus"
+    ]
+  },
+  {
+    "id": "electro",
+    "owner": "ws",
+    "name": "Electro",
+    "uses": [
+      "synch",
+      "masque",
+      "silver_samurai",
+      "ultron"
+    ]
+  },
+  {
+    "id": "jubilee",
+    "name": "Jubilee",
+    "owner": "ws",
+    "uses": [
+      "bebop",
+      "tombstone",
+      "baroness",
+      "banshee",
+      "masque",
+      "azrael",
+      "cyborg",
+      "colossus"
+    ]
+  },
+  {
+    "id": "cheetah",
+    "owner": "cbs",
+    "name": "Cheetah",
+    "uses": [
+      "doppelganger",
+      "banshee",
+      "silver_samurai",
+      "ultron"
+    ]
+  },
+  {
+    "id": "falcon",
+    "name": "Falcon",
+    "uses": [
+      "bebop",
+      "silver_samurai",
+      "huntress",
+      "black_knight",
+      "snake_eyes",
+      "colossus"
+    ]
+  },
+  {
+    "id": "rictor",
+    "name": "Rictor",
+    "owner": "evs",
+    "uses": [
+      "tombstone",
+      "banshee",
+      "holocaust",
+      "azrael",
+      "ultron"
+    ]
+  },
+  {
+    "id": "savage_land",
+    "name": "Savage Land",
+    "owner": "platformsvc",
+    "uses": [
+      "hellions",
+      "silver_samurai",
+      "black_knight",
+      "roadblock",
+      "snake_eyes",
+      "michaelangelo",
+      "azrael",
+      "colossus"
+    ]
+  },
+  {
+    "id": "husk",
+    "name": "Husk",
+    "owner": "platformsvc",
+    "uses": [
+      "bebop",
+      "colossus"
+    ]
+  },
+  {
+    "id": "siege",
+    "name": "Siege",
+    "owner": "contacts",
+    "uses": [
+      "banshee",
+      "roadblock",
+      "savage_land"
+    ]
+  },
+  {
+    "id": "living_tribunal",
+    "name": "Living Tribunal",
+    "owner": "sl",
+    "uses": [
+      "bebop",
+      "tombstone",
+      "masque",
+      "eradicator",
+      "silver_samurai",
+      "huntress",
+      "black_knight",
+      "snake_eyes",
+      "azrael",
+      "colossus",
+      "jubilee",
+      "savage_land"
+    ]
+  },
+  {
+    "id": "fleet_trackin",
+    "name": "Fleet Trackin",
+    "owner": "emm",
+    "uses": [
+      "bebop",
+      "tombstone",
+      "silver_samurai",
+      "huntress",
+      "snake_eyes",
+      "namor",
+      "widget"
+    ]
+  },
+  {
+    "id": "polaris",
+    "name": "Polaris",
+    "uses": [
+      "bebop",
+      "tombstone",
+      "banshee",
+      "colossus",
+      "savage_land"
+    ]
+  },
+  {
+    "id": "flash",
+    "name": "Flash",
+    "owner": "ws",
+    "uses": [
+      "tombstone",
+      "weapon_omega",
+      "huntress",
+      "snake_eyes",
+      "azrael",
+      "ultron",
+      "jubilee",
+      "living_tribunal"
+    ]
+  },
+  {
+    "id": "shredder",
+    "name": "Shredder",
+    "owner": "emm",
+    "type": "ui",
+    "uses": [
+      "bebop",
+      "tombstone",
+      "thunderbolts",
+      "silver_samurai",
+      "huntress",
+      "snake_eyes",
+      "kingpin",
+      "sandman",
+      "colossus",
+      "living_tribunal"
+    ]
+  },
+  {
+    "id": "gladiator",
+    "name": "Gladiator",
+    "uses": [
+      "bebop",
+      "silver_samurai",
+      "huntress",
+      "black_knight",
+      "snake_eyes",
+      "azrael",
+      "colossus",
+      "siege"
+    ]
+  },
+  {
+    "id": "superman",
+    "name": "Superman",
+    "owner": "contacts",
+    "uses": [
+      "bebop",
+      "huntress",
+      "black_knight",
+      "azrael",
+      "colossus",
+      "siege"
+    ]
+  },
+  {
+    "id": "bane",
+    "name": "Bane",
+    "type": "pubsvc",
+    "uses": [
+      "tombstone",
+      "baroness",
+      "banshee",
+      "hellions",
+      "silver_samurai",
+      "roadblock",
+      "azrael",
+      "savage_land",
+      "living_tribunal"
+    ]
+  },
+  {
+    "id": "mutant",
+    "name": "mutant",
+    "owner": "platformsvc",
+    "uses": [
+      "bebop",
+      "callisto",
+      "thunderbolts",
+      "kingpin",
+      "sandman",
+      "colossus",
+      "living_tribunal"
+    ]
+  },
+  {
+    "id": "omega_red",
+    "name": "Omega Red",
+    "owner": "website",
+    "type": "ui",
+    "uses": [
+      "baroness",
+      "hellions",
+      "silver_samurai",
+      "saracen",
+      "carnage",
+      "ultron",
+      "living_tribunal"
+    ]
+  },
+  {
+    "id": "abomination",
+    "name": "Abomination",
+    "uses": [
+      "namor",
+      "raphael",
+      "omega_red"
+    ]
+  },
+  {
+    "id": "serpentor",
+    "name": "Serpentor",
+    "owner": "sl",
+    "uses": [
+      "bebop",
+      "tombstone",
+      "eradicator",
+      "huntress",
+      "snake_eyes",
+      "azrael",
+      "living_tribunal",
+      "bane"
+    ]
+  },
+  {
+    "id": "sunspot",
+    "name": "Sunspot",
+    "owner": "sc",
+    "uses": [
+      "silver_samurai",
+      "bane"
+    ]
+  },
+  {
+    "id": "pyro",
+    "name": "Pyro",
+    "owner": "platformsvc",
+    "uses": [
+      "bebop",
+      "baroness",
+      "hellions",
+      "silver_samurai",
+      "jubilee",
+      "bane"
+    ]
+  },
+  {
+    "id": "doctor_mindbender",
+    "name": "Doctor Mindbender",
+    "uses": [
+      "reavers",
+      "bane"
+    ]
+  },
+  {
+    "id": "rumble",
+    "name": "Rumble",
+    "owner": "ws",
+    "uses": [
+      "bebop",
+      "tombstone",
+      "baroness",
+      "doppelganger",
+      "four_horsemen_of_apocalypse",
+      "banshee",
+      "panda_khan",
+      "silver_samurai",
+      "carnage",
+      "azrael",
+      "mysterio",
+      "cyborg",
+      "colossus",
+      "bane"
+    ]
+  },
+  {
+    "id": "acolytes",
+    "name": "Acolytes",
+    "owner": "sc",
+    "uses": [
+      "bebop",
+      "masque",
+      "snake_eyes",
+      "sandman",
+      "vengeance",
+      "pyro"
+    ]
+  },
+  {
+    "id": "rage",
+    "owner": "cbs",
+    "name": "Rage",
+    "uses": [
+      "bebop",
+      "tombstone",
+      "doppelganger",
+      "four_horsemen_of_apocalypse",
+      "banshee",
+      "masque",
+      "panda_khan",
+      "thunderbolts",
+      "silver_samurai",
+      "snake_eyes",
+      "acolytes"
+    ]
+  },
+  {
+    "id": "guardian",
+    "name": "Guardian",
+    "owner": "emm",
+    "type": "ui",
+    "uses": [
+      "tyrant",
+      "acolytes"
+    ]
+  },
+  {
+    "id": "loki",
+    "name": "Loki",
+    "owner": "sc",
+    "uses": [
+      "tombstone",
+      "masque",
+      "huntress",
+      "snake_eyes",
+      "azrael",
+      "bane",
+      "acolytes"
+    ]
+  },
+  {
+    "id": "wolfsbane",
+    "name": "Wolfsbane",
+    "owner": "sc",
+    "uses": [
+      "tombstone",
+      "masque",
+      "huntress",
+      "snake_eyes",
+      "azrael",
+      "nightcrawler",
+      "vengeance",
+      "bane",
+      "acolytes"
+    ]
+  },
+  {
+    "id": "bishop",
+    "name": "Bishop",
+    "owner": "sc",
+    "uses": [
+      "huntress",
+      "snake_eyes",
+      "azrael",
+      "nightcrawler",
+      "vengeance",
+      "bane",
+      "acolytes"
+    ]
+  },
+  {
+    "id": "maggott",
+    "name": "Maggott",
+    "owner": "emm",
+    "type": "ui",
+    "uses": [
+      "bebop",
+      "tombstone",
+      "baroness",
+      "banshee",
+      "holocaust",
+      "masque",
+      "eradicator",
+      "panda_khan",
+      "silver_samurai",
+      "stormtrooper",
+      "huntress",
+      "snake_eyes",
+      "azrael",
+      "nightcrawler",
+      "cyborg",
+      "colossus",
+      "vulture",
+      "acolytes"
+    ]
+  },
+  {
+    "id": "galactus",
+    "name": "Galactus",
+    "owner": "sl",
+    "uses": [
+      "bebop",
+      "masque",
+      "huntress",
+      "snake_eyes",
+      "azrael",
+      "living_tribunal",
+      "bane",
+      "pyro",
+      "maggott"
+    ]
+  },
+  {
+    "id": "mephisto",
+    "name": "Mephisto",
+    "uses": [
+      "bebop",
+      "tombstone",
+      "silver_samurai",
+      "huntress",
+      "black_knight",
+      "snake_eyes",
+      "namor",
+      "widget",
+      "maggott"
+    ]
+  },
+  {
+    "id": "exodus",
+    "name": "Exodus",
+    "uses": [
+      "baroness",
+      "panda_khan",
+      "apocalypse",
+      "omega_red",
+      "maggott"
+    ]
+  }
+]
