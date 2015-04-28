@@ -2,8 +2,10 @@ namespace :orientdb do
   require 'orientdb4r'
 
   desc "Create DB"
-  task :create do
-    client = Orientdb4r.client :host => 'localhost', :port => 2480, :ssl => false
+  task :create, :host_port do |_, args|
+    orientdb_host, orientdb_port = get_orientdb_connection(args[:host_port])
+
+    client = Orientdb4r.client :host => orientdb_host, :port => orientdb_port, :ssl => false
 
     if ! client.database_exists? :database => DB, :user => DB_USERNAME, :password => DB_PASSWORD
       puts 'Creating DB'
@@ -12,8 +14,10 @@ namespace :orientdb do
   end
 
   desc "Drop DB"
-  task :drop do
-    client = Orientdb4r.client :host => 'localhost', :port => 2480, :ssl => false
+  task :drop, :host_port do |_, args|
+    orientdb_host, orientdb_port = get_orientdb_connection(args[:host_port])
+
+    client = Orientdb4r.client :host => orientdb_host, :port => orientdb_port, :ssl => false
 
     if client.database_exists? :database => DB, :user => DB_USERNAME, :password => DB_PASSWORD
       puts 'Dropping DB'
@@ -22,8 +26,21 @@ namespace :orientdb do
     end
   end
 
-  def get_db_client
-    client = Orientdb4r.client :host => 'localhost', :port => 2480, :ssl => false
+  def get_orientdb_connection(orientdb_host)
+    return 'localhost', 2480 unless orientdb_host
+
+    if orientdb_host.include? ':'
+      parts = orientdb_host.split(':')
+      return parts[0], parts[1]
+    end
+
+    return orientdb_host, 2480
+  end
+
+  def get_db_client(host_port)
+    orientdb_host, orientdb_port = get_orientdb_connection(host_port)
+
+    client = Orientdb4r.client :host => orientdb_host, :port => orientdb_port, :ssl => false
     client.connect :database => DB, :user => DB_USERNAME, :password => DB_PASSWORD
     return client
   end
@@ -32,8 +49,8 @@ namespace :orientdb do
   USES_CLASS = 'Uses'
 
   desc "Create schema"
-  task :create_schema do
-    client =  get_db_client
+  task :create_schema, :host_port do |_, args|
+    client =  get_db_client(args[:host_port])
 
     client.drop_class APP_CLASS if client.class_exists? APP_CLASS
     client.drop_class USES_CLASS if client.class_exists? USES_CLASS

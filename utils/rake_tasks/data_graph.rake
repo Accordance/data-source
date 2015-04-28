@@ -3,7 +3,7 @@ namespace :data_graph do
   require 'json'
 
   desc "Import data"
-  task :import do
+  task :import, :host_port do |_, args|
     json = load_json('data/applications_demo.json')
     nodes = {}
     json.each do |item|
@@ -13,7 +13,7 @@ namespace :data_graph do
 
     connections = {}
 
-    client =  get_db_client
+    client =  get_db_client(args[:host_port])
     nodes.each do |id, node|
       uses = node.delete('uses') if node.key? 'uses'
 
@@ -41,8 +41,9 @@ namespace :data_graph do
   end
 
   desc "Drop Data"
-  task :drop do
-    client =  get_db_client
+  task :drop, :host_port do |_, args|
+    client =  get_db_client(args[:host_port])
+
     client.command "DELETE VERTEX Application"
     client.command "DELETE EDGE Uses"
     client.disconnect
