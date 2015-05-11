@@ -1,7 +1,7 @@
 namespace :orientdb do
   require 'orientdb4r'
 
-  desc "Create DB"
+  desc 'Create DB'
   task :create, :host_port do |_, args|
     orientdb_host, orientdb_port = get_orientdb_connection(args[:host_port])
 
@@ -13,7 +13,7 @@ namespace :orientdb do
     end
   end
 
-  desc "Drop DB"
+  desc 'Drop DB'
   task :drop, :host_port do |_, args|
     orientdb_host, orientdb_port = get_orientdb_connection(args[:host_port])
 
@@ -47,14 +47,25 @@ namespace :orientdb do
 
   APP_CLASS = 'Application'
   USES_CLASS = 'Uses'
+  TEAM_CLASS = 'Team'
+  OWNS_CLASS = 'Owns'
 
-  desc "Create schema"
+  desc 'Create schema'
   task :create_schema, :host_port do |_, args|
     client =  get_db_client(args[:host_port])
 
-    client.drop_class APP_CLASS if client.class_exists? APP_CLASS
+    if client.class_exists? APP_CLASS
+      client.command "DELETE VERTEX #{APP_CLASS}"
+      client.drop_class APP_CLASS
+    end
+    if client.class_exists? TEAM_CLASS
+      client.command "DELETE VERTEX #{TEAM_CLASS}"
+      client.drop_class TEAM_CLASS
+    end
     client.drop_class USES_CLASS if client.class_exists? USES_CLASS
+    client.drop_class OWNS_CLASS if client.class_exists? OWNS_CLASS
 
+    # Creating Applications
     client.create_class(APP_CLASS, :extends => 'V') do |c|
       c.property 'id', :string, :notnull => true, :mandatory => true
       c.property 'name', :string, :notnull => true, :mandatory => true
@@ -63,12 +74,33 @@ namespace :orientdb do
     client.create_class(USES_CLASS, :extends => 'E') do |c|
     end
 
-    client.command "CREATE PROPERTY Uses.out LINK Application"
-    client.command "CREATE PROPERTY Uses.in LINK Application"
-    client.command "ALTER PROPERTY Uses.out MANDATORY=true"
-    client.command "ALTER PROPERTY Uses.in MANDATORY=true"
-    client.command "CREATE INDEX UniqueUses on Uses(out,in) UNIQUE"
-    client.command "CREATE INDEX UniqueApps ON Application (id, name) UNIQUE"
+    client.command "CREATE PROPERTY Uses.out LINK #{APP_CLASS}"
+    client.command "CREATE PROPERTY Uses.in LINK #{APP_CLASS}"
+    client.command 'ALTER PROPERTY Uses.out MANDATORY=true'
+    client.command 'ALTER PROPERTY Uses.in MANDATORY=true'
+
+    client.command 'DROP INDEX UniqueUses'
+    client.command 'CREATE INDEX UniqueUses on Uses(out,in) UNIQUE'
+    client.command 'DROP INDEX UniqueApps'
+    client.command 'CREATE INDEX UniqueApps ON Application (id, name) UNIQUE'
+
+    # Creating Teams
+    client.create_class(TEAM_CLASS, :extends => 'V') do |c|
+      c.property 'id', :string, :notnull => true, :mandatory => true
+      c.property 'name', :string, :notnull => true, :mandatory => true
+    end
+
+    client.create_class(OWNS_CLASS, :extends => 'E') do |c|
+    end
+
+    client.command "CREATE PROPERTY Owns.out LINK #{TEAM_CLASS}"
+    client.command "CREATE PROPERTY Owns.in LINK #{APP_CLASS}"
+    client.command 'ALTER PROPERTY Owns.out MANDATORY=true'
+    client.command 'ALTER PROPERTY Owns.in MANDATORY=true'
+
+    client.command 'DROP INDEX UniqueTeams'
+    client.command 'CREATE INDEX UniqueTeams ON Team (id, name) UNIQUE'
+
 
     client.disconnect
   end
