@@ -2,7 +2,7 @@
   {
     "id": "slapstick",
     "name": "Slapstick",
-    "owner": "ws"
+    "owner": "knoll"
   },
   {
     "id": "grim_reaper",
@@ -15,7 +15,7 @@
   {
     "id": "northstar",
     "name": "Northstar",
-    "owner": "cbs"
+    "owner": "mesa"
   },
   {
     "id": "hydra",
@@ -25,12 +25,12 @@
   {
     "id": "haven",
     "name": "Haven",
-    "owner": "platformsvc"
+    "owner": "sierra"
   },
   {
     "id": "muskrat",
     "name": "Muskrat",
-    "owner": "platformsvc"
+    "owner": "sierra"
   },
   {
     "id": "angel",
@@ -43,27 +43,27 @@
   {
     "id": "guile",
     "name": "Guile",
-    "owner": "cd"
+    "owner": "mound"
   },
   {
     "id": "mondo_gecko",
     "name": "Mondo Gecko",
-    "owner": "cd"
+    "owner": "mound"
   },
   {
     "id": "vertigo",
     "name": "Vertigo",
-    "owner": "cd"
+    "owner": "mound"
   },
   {
     "id": "prowler",
     "name": "Prowler",
-    "owner": "cbs"
+    "owner": "mesa"
   },
   {
     "id": "mojo",
     "name": "Mojo",
-    "owner": "cbs"
+    "owner": "mesa"
   },
   {
     "id": "hawk",
@@ -77,7 +77,7 @@
   {
     "id": "gideon",
     "name": "Gideon",
-    "owner": "cbs"
+    "owner": "mesa"
   },
   {
     "id": "archangel",
@@ -86,12 +86,12 @@
   {
     "id": "tombstone",
     "name": "Tombstone",
-    "owner": "contacts"
+    "owner": "dune"
   },
   {
     "id": "siryn",
     "name": "Siryn",
-    "owner": "platformsvc"
+    "owner": "sierra"
   },
   {
     "id": "leonardo",
@@ -104,17 +104,17 @@
   {
     "id": "doctor_doom",
     "name": "Doctor Doom",
-    "owner": "inno"
+    "owner": "mound"
   },
   {
     "id": "arcade",
     "name": "Arcade",
-    "owner": "sl"
+    "owner": "massif"
   },
   {
     "id": "cloak_and_dagger",
     "name": "Cloak and Dagger",
-    "owner": "cbs"
+    "owner": "mesa"
   },
   {
     "id": "spider_man",
@@ -132,17 +132,17 @@
   {
     "id": "wrecker",
     "name": "Wrecker",
-    "owner": "campaigns"
+    "owner": "upland"
   },
   {
     "id": "callisto",
     "name": "Callisto",
-    "owner": "campaigns"
+    "owner": "upland"
   },
   {
     "id": "robin",
     "name": "Robin",
-    "owner": "campaigns"
+    "owner": "upland"
   },
   {
     "id": "blood_wraith",
@@ -165,7 +165,7 @@
   {
     "id": "sleepwalker",
     "name": "Sleepwalker",
-    "owner": "cbs"
+    "owner": "mesa"
   },
   {
     "id": "doomsday",
@@ -178,32 +178,32 @@
   {
     "id": "jinx",
     "name": "Jinx",
-    "owner": "cbs"
+    "owner": "mesa"
   },
   {
     "id": "doppelganger",
     "name": "Doppelganger",
-    "owner": "cbs"
+    "owner": "mesa"
   },
   {
     "id": "annihilus",
     "name": "Annihilus",
-    "owner": "inno"
+    "owner": "mound"
   },
   {
     "id": "juggernaut",
     "name": "Juggernaut",
-    "owner": "inno"
+    "owner": "mound"
   },
   {
     "id": "four_horsemen_of_apocalypse",
     "name": "Four Horsemen of Apocalypse",
-    "owner": "emm"
+    "owner": "precipice"
   },
   {
     "id": "weapon_omega",
     "name": "Weapon Omega",
-    "owner": "labs"
+    "owner": "mound"
   },
   {
     "id": "catwoman",
@@ -231,7 +231,7 @@
   {
     "id": "masque",
     "name": "Masque",
-    "owner": "platformsvc",
+    "owner": "sierra",
     "type": "hybrid"
   },
   {
@@ -241,7 +241,7 @@
   {
     "id": "stryfe",
     "name": "Stryfe",
-    "owner": "platformsvc"
+    "owner": "sierra"
   },
   {
     "id": "lobo",
@@ -250,7 +250,7 @@
   {
     "id": "wasp",
     "name": "Wasp",
-    "owner": "sc"
+    "owner": "massif"
   },
   {
     "id": "thor",
@@ -271,18 +271,18 @@
   {
     "id": "leatherneck",
     "name": "Leatherneck",
-    "owner": "emm"
+    "owner": "precipice"
   },
   {
     "id": "xian",
     "name": "Xi’an",
-    "owner": "emm"
+    "owner": "precipice"
   },
   {
     "id": "gi_joe",
     "name": "G.I. Joe",
     "type": "ui",
-    "owner": "sc"
+    "owner": "massif"
   },
   {
     "id": "panda_khan",
@@ -292,17 +292,17 @@
   {
     "id": "mandarin",
     "name": "Mandarin",
-    "owner": "emm"
+    "owner": "precipice"
   },
   {
     "id": "thunderbolts",
     "name": "Thunderbolts",
-    "owner": "emm"
+    "owner": "precipice"
   },
   {
     "id": "silver_samurai",
     "name": "Silver Samurai",
-    "owner": "emm"
+    "owner": "precipice"
   },
   {
     "id": "stormtrooper",
@@ -312,17 +312,17 @@
   {
     "id": "proteus",
     "name": "Proteus",
-    "owner": "platformsvc"
+    "owner": "sierra"
   },
   {
     "id": "solo",
     "name": "Solo",
-    "owner": "cbs"
+    "owner": "mesa"
   },
   {
     "id": "huntress",
     "name": "Huntress",
-    "owner": "platformsvc",
+    "owner": "sierra",
     "uses": [
       "banshee"
     ]
@@ -330,7 +330,7 @@
   {
     "id": "blink",
     "name": "Blink",
-    "owner": "platformsvc",
+    "owner": "sierra",
     "uses": [
       "silver_samurai"
     ]
@@ -360,7 +360,7 @@
   {
     "id": "black_knight",
     "name": "Black Knight",
-    "owner": "cbs",
+    "owner": "mesa",
     "uses": [
       "bebop",
       "tombstone",
@@ -377,7 +377,7 @@
   {
     "id": "saracen",
     "name": "Saracen",
-    "owner": "ws",
+    "owner": "knoll",
     "type": "hybrid",
     "uses": [
       "spider_man"
@@ -386,7 +386,7 @@
   {
     "id": "scarlet_witch",
     "name": "Scarlet Witch",
-    "owner": "platformsvc",
+    "owner": "sierra",
     "uses": [
       "baroness",
       "masque",
@@ -403,7 +403,7 @@
   {
     "id": "havok",
     "name": "Havok",
-    "owner": "evm",
+    "owner": "scarp",
     "uses": [
       "banshee"
     ]
@@ -411,7 +411,7 @@
   {
     "id": "storm",
     "name": "Storm",
-    "owner": "labs",
+    "owner": "mound",
     "uses": [
       "weapon_omega"
     ]
@@ -419,7 +419,7 @@
   {
     "id": "snake_eyes",
     "name": "Snake-Eyes",
-    "owner": "cbs",
+    "owner": "mesa",
     "uses": [
       "cloak_and_dagger",
       "doppelganger",
@@ -429,7 +429,7 @@
   {
     "id": "carnage",
     "name": "Carnage",
-    "owner": "platformsvc",
+    "owner": "sierra",
     "uses": [
       "doomsday",
       "banshee",
@@ -439,7 +439,7 @@
   {
     "id": "union_jack",
     "name": "Union Jack",
-    "owner": "cbs",
+    "owner": "mesa",
     "uses": [
       "silver_samurai"
     ]
@@ -454,7 +454,7 @@
   {
     "id": "morg",
     "name": "Morg",
-    "owner": "platformsvc",
+    "owner": "sierra",
     "type": "ui",
     "uses": [
       "silver_samurai"
@@ -463,7 +463,7 @@
   {
     "id": "penguin",
     "name": "Penguin",
-    "owner": "authoring",
+    "owner": "scarp",
     "uses": [
       "hulk",
       "panda_khan",
@@ -475,7 +475,7 @@
   {
     "id": "green_goblin",
     "name": "Green Goblin",
-    "owner": "cbs",
+    "owner": "mesa",
     "uses": [
       "doppelganger",
       "banshee",
@@ -487,7 +487,7 @@
   {
     "id": "michaelangelo",
     "name": "Michaelangelo",
-    "owner": "platformsvc",
+    "owner": "sierra",
     "uses": [
       "scarlet_witch"
     ]
@@ -495,7 +495,7 @@
   {
     "id": "daredevil",
     "name": "Daredevil",
-    "owner": "cbs",
+    "owner": "mesa",
     "uses": [
       "doppelganger",
       "banshee",
@@ -514,7 +514,7 @@
   {
     "id": "azrael",
     "name": "Azrael",
-    "owner": "contacts",
+    "owner": "dune",
     "uses": [
       "snake_eyes"
     ]
@@ -531,7 +531,7 @@
   {
     "id": "kingpin",
     "name": "Kingpin",
-    "owner": "evs",
+    "owner": "scarp",
     "uses": [
       "snake_eyes"
     ]
@@ -560,7 +560,7 @@
   {
     "id": "mastermind",
     "name": "Mastermind",
-    "owner": "cbs",
+    "owner": "mesa",
     "uses": [
       "northstar",
       "goliath",
@@ -570,7 +570,7 @@
   },
   {
     "id": "mysterio",
-    "owner": "ws",
+    "owner": "knoll",
     "name": "Mysterio",
     "type": "ui",
     "uses": [
@@ -613,7 +613,7 @@
   {
     "id": "namor",
     "name": "Namor",
-    "owner": "authoring",
+    "owner": "scarp",
     "uses": [
       "penguin"
     ]
@@ -631,7 +631,7 @@
   {
     "id": "apocalypse",
     "name": "Apocalypse",
-    "owner": "platformsvc",
+    "owner": "sierra",
     "type": "ui",
     "uses": [
       "bebop",
@@ -643,7 +643,7 @@
   {
     "id": "cyborg",
     "name": "Cyborg",
-    "owner": "evm",
+    "owner": "scarp",
     "uses": [
       "bebop",
       "azrael"
@@ -652,7 +652,7 @@
   {
     "id": "bionic_commando",
     "name": "Bionic Commando",
-    "owner": "emm",
+    "owner": "precipice",
     "uses": [
       "haven",
       "panda_khan",
@@ -665,7 +665,7 @@
   {
     "id": "x_cutioner",
     "name": "X-Cutioner",
-    "owner": "cbs",
+    "owner": "mesa",
     "uses": [
       "tombstone",
       "cloak_and_dagger",
@@ -690,7 +690,7 @@
   {
     "id": "scorpion",
     "name": "Scorpion",
-    "owner": "contacts",
+    "owner": "dune",
     "uses": [
       "baroness",
       "panda_khan",
@@ -702,7 +702,7 @@
   {
     "id": "lamprey",
     "name": "Lamprey",
-    "owner": "contacts",
+    "owner": "dune",
     "uses": [
       "tombstone",
       "huntress",
@@ -727,7 +727,7 @@
   {
     "id": "sandman",
     "name": "Sandman",
-    "owner": "sc",
+    "owner": "massif",
     "uses": [
       "snake_eyes",
       "nightcrawler"
@@ -736,7 +736,7 @@
   {
     "id": "vengeance",
     "name": "Vengeance",
-    "owner": "sc",
+    "owner": "massif",
     "uses": [
       "bebop",
       "gi_joe",
@@ -748,7 +748,7 @@
   {
     "id": "colossus",
     "name": "Colossus",
-    "owner": "platformsvc",
+    "owner": "sierra",
     "uses": [
       "bebop",
       "azrael"
@@ -766,7 +766,7 @@
   {
     "id": "raphael",
     "name": "Raphael",
-    "owner": "authoring",
+    "owner": "scarp",
     "uses": [
       "namor"
     ]
@@ -774,7 +774,7 @@
   {
     "id": "vulture",
     "name": "Vulture",
-    "owner": "ws",
+    "owner": "knoll",
     "uses": [
       "hydra",
       "avalon",
@@ -787,7 +787,7 @@
   {
     "id": "widget",
     "name": "Widget",
-    "owner": "emm",
+    "owner": "precipice",
     "uses": [
       "bebop",
       "tombstone",
@@ -808,7 +808,7 @@
   },
   {
     "id": "electro",
-    "owner": "ws",
+    "owner": "knoll",
     "name": "Electro",
     "uses": [
       "synch",
@@ -820,7 +820,7 @@
   {
     "id": "jubilee",
     "name": "Jubilee",
-    "owner": "ws",
+    "owner": "knoll",
     "uses": [
       "bebop",
       "tombstone",
@@ -834,7 +834,7 @@
   },
   {
     "id": "cheetah",
-    "owner": "cbs",
+    "owner": "mesa",
     "name": "Cheetah",
     "uses": [
       "doppelganger",
@@ -858,7 +858,7 @@
   {
     "id": "rictor",
     "name": "Rictor",
-    "owner": "evs",
+    "owner": "scarp",
     "uses": [
       "tombstone",
       "banshee",
@@ -870,7 +870,7 @@
   {
     "id": "savage_land",
     "name": "Savage Land",
-    "owner": "platformsvc",
+    "owner": "sierra",
     "uses": [
       "hellions",
       "silver_samurai",
@@ -885,7 +885,7 @@
   {
     "id": "husk",
     "name": "Husk",
-    "owner": "platformsvc",
+    "owner": "sierra",
     "uses": [
       "bebop",
       "colossus"
@@ -894,7 +894,7 @@
   {
     "id": "siege",
     "name": "Siege",
-    "owner": "contacts",
+    "owner": "dune",
     "uses": [
       "banshee",
       "roadblock",
@@ -904,7 +904,7 @@
   {
     "id": "living_tribunal",
     "name": "Living Tribunal",
-    "owner": "sl",
+    "owner": "massif",
     "uses": [
       "bebop",
       "tombstone",
@@ -923,7 +923,7 @@
   {
     "id": "fleet_trackin",
     "name": "Fleet Trackin",
-    "owner": "emm",
+    "owner": "precipice",
     "uses": [
       "bebop",
       "tombstone",
@@ -948,7 +948,7 @@
   {
     "id": "flash",
     "name": "Flash",
-    "owner": "ws",
+    "owner": "knoll",
     "uses": [
       "tombstone",
       "weapon_omega",
@@ -963,7 +963,7 @@
   {
     "id": "shredder",
     "name": "Shredder",
-    "owner": "emm",
+    "owner": "precipice",
     "type": "ui",
     "uses": [
       "bebop",
@@ -995,7 +995,7 @@
   {
     "id": "superman",
     "name": "Superman",
-    "owner": "contacts",
+    "owner": "dune",
     "uses": [
       "bebop",
       "huntress",
@@ -1024,7 +1024,7 @@
   {
     "id": "mutant",
     "name": "mutant",
-    "owner": "platformsvc",
+    "owner": "sierra",
     "uses": [
       "bebop",
       "callisto",
@@ -1038,7 +1038,7 @@
   {
     "id": "omega_red",
     "name": "Omega Red",
-    "owner": "website",
+    "owner": "knoll",
     "type": "ui",
     "uses": [
       "baroness",
@@ -1062,7 +1062,7 @@
   {
     "id": "serpentor",
     "name": "Serpentor",
-    "owner": "sl",
+    "owner": "massif",
     "uses": [
       "bebop",
       "tombstone",
@@ -1077,7 +1077,7 @@
   {
     "id": "sunspot",
     "name": "Sunspot",
-    "owner": "sc",
+    "owner": "massif",
     "uses": [
       "silver_samurai",
       "bane"
@@ -1086,7 +1086,7 @@
   {
     "id": "pyro",
     "name": "Pyro",
-    "owner": "platformsvc",
+    "owner": "sierra",
     "uses": [
       "bebop",
       "baroness",
@@ -1107,7 +1107,7 @@
   {
     "id": "rumble",
     "name": "Rumble",
-    "owner": "ws",
+    "owner": "knoll",
     "uses": [
       "bebop",
       "tombstone",
@@ -1128,7 +1128,7 @@
   {
     "id": "acolytes",
     "name": "Acolytes",
-    "owner": "sc",
+    "owner": "massif",
     "uses": [
       "bebop",
       "masque",
@@ -1140,7 +1140,7 @@
   },
   {
     "id": "rage",
-    "owner": "cbs",
+    "owner": "mesa",
     "name": "Rage",
     "uses": [
       "bebop",
@@ -1159,7 +1159,7 @@
   {
     "id": "guardian",
     "name": "Guardian",
-    "owner": "emm",
+    "owner": "precipice",
     "type": "ui",
     "uses": [
       "tyrant",
@@ -1169,7 +1169,7 @@
   {
     "id": "loki",
     "name": "Loki",
-    "owner": "sc",
+    "owner": "massif",
     "uses": [
       "tombstone",
       "masque",
@@ -1183,7 +1183,7 @@
   {
     "id": "wolfsbane",
     "name": "Wolfsbane",
-    "owner": "sc",
+    "owner": "massif",
     "uses": [
       "tombstone",
       "masque",
@@ -1199,7 +1199,7 @@
   {
     "id": "bishop",
     "name": "Bishop",
-    "owner": "sc",
+    "owner": "massif",
     "uses": [
       "huntress",
       "snake_eyes",
@@ -1213,7 +1213,7 @@
   {
     "id": "maggott",
     "name": "Maggott",
-    "owner": "emm",
+    "owner": "precipice",
     "type": "ui",
     "uses": [
       "bebop",
@@ -1239,7 +1239,7 @@
   {
     "id": "galactus",
     "name": "Galactus",
-    "owner": "sl",
+    "owner": "massif",
     "uses": [
       "bebop",
       "masque",
