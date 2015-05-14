@@ -1,6 +1,6 @@
 namespace :data_graph do
   require 'orientdb4r'
-  require 'json'
+  require_relative 'utils'
 
   desc "Import data"
   task :import, [ :host_port ] => [ :import_apps, :import_teams ]
@@ -74,14 +74,6 @@ namespace :data_graph do
     client.disconnect
   end
 
-  def load_json(file_name)
-    begin
-      JSON.load(File.read(file_name))
-    rescue Exception => _
-      puts "Failed JSON lint of #{file_name}"
-      raise
-    end
-  end
 
   def create_connections(client, type, from_id, connections)
     connections.each do |to_id|

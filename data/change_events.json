@@ -1,0 +1,122 @@
+[
+  {
+    "systems": [
+      "ultron"
+    ],
+    "metadata": {
+      "artifact_version": "v2.132.4521"
+    },
+    "_type": "BuildEventsProvider::DeployEvent",
+    "type": "deploy",
+    "env": "e3",
+    "event_status": "finished",
+    "reference_url": "https://github.com/Accordance/accordance.github.io/wiki/Change-Status-Info",
+    "job_status_doc": {
+      "building": false,
+      "duration": 0,
+      "estimatedDuration": 243375,
+      "result": "SUCCESS"
+    },
+    "job_status": "SUCCESS"
+  },
+  {
+    "systems": [
+      "ultron"
+    ],
+    "metadata": {
+      "artifact_version": "v2.132.4521"
+    },
+    "_type": "BuildEventsProvider::DeployEvent",
+    "type": "deploy",
+    "env": "e3",
+    "event_status": "started",
+    "reference_url": "https://github.com/Accordance/accordance.github.io/wiki/Change-Status-Info",
+    "job_status_doc": {
+      "building": true,
+      "duration": 0,
+      "estimatedDuration": 243375,
+      "result": null
+    },
+    "job_status": null
+  },
+  {
+    "systems": [
+      "proteus"
+    ],
+    "metadata": {
+      "artifact_version": "v1.231.82"
+    },
+    "_type": "BuildEventsProvider::DeployEvent",
+    "type": "deploy",
+    "env": "e2",
+    "event_status": "finished",
+    "reference_url": "https://github.com/Accordance/accordance.github.io/wiki/Change-Status-Info",
+    "job_status_doc": {
+      "building": false,
+      "duration": 0,
+      "estimatedDuration": 243375,
+      "result": "SUCCESS"
+    },
+    "job_status": "SUCCESS"
+  },
+  {
+    "systems": [
+      "proteus"
+    ],
+    "metadata": {
+      "artifact_version": "v1.231.82"
+    },
+    "_type": "BuildEventsProvider::DeployEvent",
+    "type": "deploy",
+    "env": "e2",
+    "event_status": "started",
+    "reference_url": "https://github.com/Accordance/accordance.github.io/wiki/Change-Status-Info",
+    "job_status_doc": {
+      "building": true,
+      "duration": 0,
+      "estimatedDuration": 243375,
+      "result": null
+    },
+    "job_status": null
+  },
+  {
+    "systems": [
+      "wasp"
+    ],
+    "metadata": {
+      "artifact_version": "v7.45"
+    },
+    "_type": "BuildEventsProvider::DeployEvent",
+    "type": "deploy",
+    "env": "e4",
+    "event_status": "finished",
+    "reference_url": "https://github.com/Accordance/accordance.github.io/wiki/Change-Status-Info",
+    "job_status_doc": {
+      "building": false,
+      "duration": 0,
+      "estimatedDuration": 243375,
+      "result": "SUCCESS"
+    },
+    "job_status": "SUCCESS"
+  },
+  {
+    "systems": [
+      "wasp"
+    ],
+    "metadata": {
+      "artifact_version": "v7.45"
+    },
+    "_type": "BuildEventsProvider::DeployEvent",
+    "type": "deploy",
+    "env": "e4",
+    "event_status": "started",
+    "reference_url": "https://github.com/Accordance/accordance.github.io/wiki/Change-Status-Info",
+    "job_status_doc": {
+      "building": true,
+      "duration": 0,
+      "estimatedDuration": 243375,
+      "result": null
+    },
+    "job_status": null
+  }
+]
