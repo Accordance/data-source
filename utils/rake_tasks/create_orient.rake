@@ -3,7 +3,7 @@ namespace :orientdb do
 
   desc 'Create DB'
   task :create, :host_port do |_, args|
-    orientdb_host, orientdb_port = get_orientdb_connection(args[:host_port])
+    orientdb_host, orientdb_port = parse_host_connection(args[:host_port], "localhost", 2480)
 
     client = Orientdb4r.client :host => orientdb_host, :port => orientdb_port, :ssl => false
 
@@ -15,7 +15,7 @@ namespace :orientdb do
 
   desc 'Drop DB'
   task :drop, :host_port do |_, args|
-    orientdb_host, orientdb_port = get_orientdb_connection(args[:host_port])
+    orientdb_host, orientdb_port = parse_host_connection(args[:host_port], "localhost", 2480)
 
     client = Orientdb4r.client :host => orientdb_host, :port => orientdb_port, :ssl => false
 
@@ -26,19 +26,8 @@ namespace :orientdb do
     end
   end
 
-  def get_orientdb_connection(orientdb_host)
-    return 'localhost', 2480 unless orientdb_host
-
-    if orientdb_host.include? ':'
-      parts = orientdb_host.split(':')
-      return parts[0], parts[1]
-    end
-
-    return orientdb_host, 2480
-  end
-
   def get_db_client(host_port)
-    orientdb_host, orientdb_port = get_orientdb_connection(host_port)
+    orientdb_host, orientdb_port = parse_host_connection(host_port, "localhost", 2480)
 
     client = Orientdb4r.client :host => orientdb_host, :port => orientdb_port, :ssl => false
     client.connect :database => DB, :user => DB_USERNAME, :password => DB_PASSWORD

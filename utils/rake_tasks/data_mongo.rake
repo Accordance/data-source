@@ -4,7 +4,8 @@ namespace :mongo do
 
   desc 'Create DB'
   task :create, [:host_port] => :drop do |_, args|
-    client = Mongo::Client.new([ 'dockerhost:27017' ], :database => 'catalog')
+    mongodb_host, mongodb_port = parse_host_connection(args[:host_port], "localhost", 27017)
+    client = Mongo::Client.new([ "#{mongodb_host}:#{mongodb_port}" ], :database => 'catalog')
 
     json = load_json('data/change_events.json')
     start_time = Time.now
@@ -30,7 +31,8 @@ namespace :mongo do
 
   desc 'Clear DB'
   task :drop, :host_port do |_, args|
-    client = Mongo::Client.new([ 'dockerhost:27017' ], :database => 'catalog')
+    mongodb_host, mongodb_port = parse_host_connection(args[:host_port], "localhost", 27017)
+    client = Mongo::Client.new([ "#{mongodb_host}:#{mongodb_port}" ], :database => 'catalog')
     change_events = client[:change_events]
     change_events.drop
     maintenance_events = client[:maintenance_events]
